@@ -7,24 +7,23 @@ function calcular(){
     var KmPorLitro = document.getElementById("kmporlitro").value;
     var distanciaEmKm = document.getElementById("distanciaemkm").value;
 
-        //let distanciaEmKm1 = parseFloat(distanciaEmKm);
-       // let KmPorLitro1 = parseFloat(KmPorLitro);
-       // let precoCombustivel1 = parseFloat(precoCombustivel);
+        
 
         var litrosConsumidos = distanciaEmKm / KmPorLitro;
         var valorGasto = litrosConsumidos * precoCombustivel;
 
-      //console.log (valorGasto);
+      
 
-      //var consumo = {preco:precoCombustivel, kmlitro:KmPorLitro, distanciaEmKm:distanciaEmKm, valortotal:valorGasto};
-      //consumos[totalcad] = consumo;
+      var consumo = {preco:precoCombustivel, kmlitro:KmPorLitro, distanciaEmKm:distanciaEmKm, valortotal:valorGasto};
+      consumos[totalcad] = consumo;
 
-   document.getElementById("saida").innerHTML = "valor total gasto" + valorGasto;
+   document.getElementById("saida").innerHTML = "Preço combustivel: " + consumos[totalcad].preco +"<br>" + 
+                                                "km por litro: " + consumos[totalcad].kmlitro + "<br>" +
+                                                "Distancia total: " + consumos[totalcad].distanciaEmKm +"<br>" +
+                                                 "Valor total gasto: " + valorGasto.toFixed(2);
 
       totalcad ++;
     }
 
-//console.log(valorGasto.toFixed(2));
-//"preco combustivel" + consumos[totalcad].preco +"<br>" + 
-//"km por litro" + consumos[totalcad].kmlitro + "<br>" +
-//"distancia total" + consumos[totalcad].distanciaEmKm +"<br>" +
+
+
