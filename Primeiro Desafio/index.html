@@ -26,7 +26,7 @@ div#saida{
     margin-left: 5%;
     margin-top: 5%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #E0FFFF;
+    color: #105555;
     overflow: auto;
     display: flex;
     flex-direction: row;
@@ -41,13 +41,13 @@ div#saida{
     <div id="form">
         <form>
             <div>
-                <input type="text" id="precocombustivel" placeholder="Digite o preço do Combustivel">
+                <input type="number" id="precocombustivel" placeholder="Digite o preço do Combustivel">
             </div>
             <div>
-                <input type="text" id="kmporlitro" placeholder="Digite quantos KM por litro">
+                <input type="number" id="kmporlitro" placeholder="Digite quantos KM por litro">
             </div>
             <div>
-                <input type="text" id="distanciaemkm" placeholder="Digite a distância total">
+                <input type="number" id="distanciaemkm" placeholder="Digite a distância total">
             </div>
             <div>
                 <button type="submit" onclick="calcular()">calcular consumo </button>
@@ -55,10 +55,10 @@ div#saida{
 
         </form>
     </div>
-<div id="saida1">
+
     <div id="saida">
             
-    </div>
+    
 </div>
 </body>
 </html>
