@@ -24,10 +24,11 @@ div#fundo{
     border-radius: 20px;   
     align-items: center;    
     margin-left: 450px;
-    margin-top: 5px;
+    margin-top: 30px;
     width: 400px;
-    height: 600px;
+    height: 580px;
     position: absolute;
+    background-color: gainsboro;
 }
 div#cabecalho{
     color: black;
@@ -36,10 +37,10 @@ div#cabecalho{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 10px;
     margin-right: 10px;        
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     display: inline-block;
-    height: 60px;
+    height: 40px;
     width: 380px;
     text-align: center;
 }
