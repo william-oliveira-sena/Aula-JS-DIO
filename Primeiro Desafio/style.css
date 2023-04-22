@@ -24,7 +24,7 @@ div#fundo{
     border-radius: 20px;   
     align-items: center;    
     margin-left: 450px;
-    margin-top: 50px;
+    margin-top: 5px;
     width: 400px;
     height: 600px;
     position: absolute;
@@ -62,11 +62,11 @@ div#form{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     size: 16px;
 }
-input[type=text], input[type=tel], input[type=date]{
+input[type=text], input[type=number]{
     background-color: #E6E6FA;
-    border-radius: 10px;
-    padding: 10px;
-    width: 800;
+    border-radius: 5px;
+    padding:5px;
+    width: 750;
     border: 1px solid #999;
     outline: 0;  
    
