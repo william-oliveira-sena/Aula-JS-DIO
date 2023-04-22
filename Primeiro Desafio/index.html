@@ -5,60 +5,46 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consume Médio Por KM</title>
-    
-<!--   <meta name='viewport' content='width=device-width, initial-scale=1'>
-     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>-->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+<!--   <meta name='viewport' content='width=device-width, initial-scale=1'>-->
 <!--margin-right: 400px;
     margin-left: 700px;-->
     <script src="consumo_medio.js"></script>
-<style> 
-div#saida1{
-    border-radius: 20px;
-    background-color:#008080;   
-    
-    margin-top: 50px;
-    width: 600px;
-    height: 550px;
-    position: absolute;
-}
-div#saida{
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 5%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #105555;
-    overflow: auto;
-    display: flex;
-    flex-direction: row;
-    max-height: 490px;   
-}
 
-
-</style>
     
 </head>
-<body>
-    <div id="form">
+<body id="fundo">
+    <div id="fundo">
+          <div id="cabecalho">
+            <h3> Calculo do consumo médio por KM</h3>
+          </div>
+            <div id="linha"></div>
         <form>
-            <div>
+            <div id="form">
+                   <label for="preco"> Preço Combustivel:</label> 
                 <input type="number" id="precocombustivel" placeholder="Digite o preço do Combustivel">
             </div>
-            <div>
+            <div id="form">
+               <label for="kmlitro"> KM por Litro:</label>
                 <input type="number" id="kmporlitro" placeholder="Digite quantos KM por litro">
             </div>
-            <div>
+            <div id="form">
+               <label for="distaciatotal"> Distância total:</label>
                 <input type="number" id="distanciaemkm" placeholder="Digite a distância total">
             </div>
-            <div>
+            <div id="botao">
                 <button type="submit" onclick="calcular()">calcular consumo </button>
             </div>
 
         </form>
+        <div id="cabecalho">
+            <h3> Resultado: </h3>
+        </div>
+           <div id="linha"></div> 
+        <div id="saida">
+         
+        </div>
     </div>
-
-    <div id="saida">
-            
-    
-</div>
+  
 </body>
 </html>
