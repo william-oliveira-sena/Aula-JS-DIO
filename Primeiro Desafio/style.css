@@ -2,9 +2,7 @@ div#saidafundo{
     border-radius: 20px;
     margin-right: 400px;
     margin-left: 700px;
-    margin-top: 150px;
-    
-  
+    margin-top: 150px; 
     width: 400px;
     height: 300px;
     position: absolute;
@@ -19,18 +17,12 @@ div#saida{
     overflow: auto;
     display: flex;
     flex-direction: row;
-    max-height: 490px;   
-   
+    max-height: 490px;    
    
 }
-
-
-
 div#fundo{
-    border-radius: 20px;
-   
-    align-items: center;
-    
+    border-radius: 20px;   
+    align-items: center;    
     margin-left: 450px;
     margin-top: 50px;
     width: 400px;
@@ -58,8 +50,7 @@ div#linha{
     height: 5px;
     width: 380px;
 }
-div#form{
-    
+div#form{    
     color: black;
     font-weight: bold; 
     width: 400px;
