@@ -1,8 +1,8 @@
 function calcularmedia(){
 
-        var nota1 = document.getElementById("nota1").value;
-        var nota2 = document.getElementById("nota2").value;
-        var nota3 = document.getElementById("nota3").value;
+       var nota1 = document.getElementById("nota1").value;
+       var nota2 = document.getElementById("nota2").value;
+       var nota3 = document.getElementById("nota3").value;
 
         var resultado = "";
         var media = (nota1 + nota2 + nota3) / 3;
@@ -17,6 +17,6 @@ function calcularmedia(){
                resultado = "recuperação";
             }
 
-            document.getElementById("saida").innerHTML = "Sua média foi: " + media + "<br>" + "Seu resultado:" + resultado;
-           
-    }
+            document.getElementById("saida").innerHTML = "Sua média foi: " + media.toFixed(2) + "<br>" + "Seu resultado:" + resultado;
+        
+  }
